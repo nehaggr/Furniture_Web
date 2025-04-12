@@ -1,0 +1,242 @@
+@media only screen and (min-width:320px) and (max-width:575px){
+    .icon-bottom{
+        position: fixed;
+        bottom: 0px;
+        display: flex;
+        padding: 5px 0px;
+    }
+    .icon-outer{
+        display: none;
+    }
+    .container-fluid .icon-bottom{
+        background-color:#737357 ;
+        width: 100%;
+        left: 0px;
+       
+    }
+  
+    .iconbtn{
+border: 2px solid #ffffff;
+color: #ffffff;
+    }
+
+    .box h1{
+        font-size: 23px;
+    }
+    .sec1 .box{
+        margin-top: 20px;
+        
+      }
+      .sec1 button{
+        margin-top: 20px;
+        width: 80px;
+      display: inline-block;
+      font-size: 10px;
+        }
+        .responsive-2{
+            display: none;
+        }
+        .responsive-3{
+            display: flex;
+        }
+        .sec1 .iconbtn-3{
+            border: 2px solid white;
+            width: 80px;
+            border-radius: 20px;
+            color: white;
+
+        }
+        .sec2{
+            margin-top:30px;
+           
+        }
+        .sec2 .box h2{
+            font-size:30px;
+        }
+        .sec2 .box p{
+            font-size: 16px;
+            
+        }
+        .sec2 .box .iconbtn-4{
+            font-size: 14px;
+        }
+        .sec2 .box-3{
+            margin-top: 28px;
+        }
+        .sec2 .box-2{
+            margin-top: 28px; 
+        }
+        .sec2 .box-1{
+            margin-top: 28px; 
+        }
+       .slider .middle-part{
+        bottom: 6rem;
+       }
+       .slider .btn{
+        font-size: 20px;
+       }
+       .sec4 h1{
+        font-size: 30px;}
+        .sec4 .inline a{
+            font-size: 10px;
+        }
+        .sec4 .group{
+            margin-top: 20px;
+        }
+        .options img{
+            width: 15%;
+            }
+        .options{
+            gap: 20px;
+            overflow-x: scroll;
+            overflow-y: scroll;
+        }
+        #prev, #next{
+       display: none;
+        }
+        .gallery h3{
+            display: flex;
+        justify-content: center;
+            font-weight: 600;
+            font-size: 15px;
+            border-bottom: 1px solid #7b7b7b;
+            padding-bottom: 5px;
+          
+        }
+        video{
+           
+         position: relative;
+         z-index:-1 ;
+        }
+        .bg{
+            margin-top: 30px;
+        }
+          .subfooter #form-input{
+            width: 250px;
+            left: 0;
+            margin-top: 20px;
+          }
+          .subfooter .btn-send{
+            width: 50px;
+            margin-top: 20px;
+            float: right;
+          }
+        .subfooter .heading{
+            display: flex;
+            justify-content: flex-start;
+            gap: 10px;
+        }
+        .subfooter .heading img{
+            margin-top: -40px;
+        }
+        .subfooter .heading h2{
+            font-size: 30px;
+        }
+        .subfooter .fill{
+            display:inline-block;
+        }
+        .subfooter .sofa img{
+        width: 100%;
+        margin-top: -50px;
+        }
+        .footer .list p{
+            font-size: 10px;
+        }
+        .footer .list {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 20px;
+        }
+        .social-icon i{
+            display: inline-block;
+          padding: auto;
+          font-size:26px
+          
+         }
+         .footer .info 
+         {
+            font-size: 10px;
+         }
+}
+@media only screen and (min-width:575px) and (max-width:768px){
+    .responsive-2{
+        display: none;
+    }
+    .responsive-3{
+        display: flex;
+        
+    }
+    .sec1 .iconbtn-3{
+        border: 2px solid white;
+        width: 120px;
+        border-radius: 20px;
+        color: white;
+      
+    }
+    .sec4 p{
+        font-size: 10px;
+    }
+    .sec4 h1{
+        font-size: 23px;
+    
+        color: #3B5D50;
+    }
+    .sec4 .inline{
+        line-height: 12px;
+    }
+    .sec4 .inline a{
+        margin: 0;
+        font-size: 12px;
+    }
+    .sec4  .iconbtn-4{
+     font-size: 12px;
+        margin-top: 20px;
+    }
+    .options{
+        gap: 20px;
+        overflow-x: scroll;
+        overflow-y: scroll;
+        margin-top: 10px;
+    }
+    #prev, #next{
+   display: none;
+    }
+    .gallery h3{
+        display: flex;
+    justify-content: center;
+        font-weight: 600;
+        font-size: 30px;
+        margin-top: 30px;
+        border-bottom: 1px solid #7b7b7b;
+        padding-bottom: 5px;
+      
+    }
+    .subfooter #form-input{
+        margin-top: 20px;
+      }
+    .subfooter .btn-send{
+        width: 50px;
+      }
+    .subfooter .heading{
+        display: flex;
+        justify-content:start;
+        gap: 10px;
+    }
+    .subfooter .heading h2{
+        font-size: 30px;
+    }
+    .subfooter .fill{
+        display:inline-block;
+    }
+    .subfooter .sofa img{
+    width: 100%;
+    margin-top: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 1140px;
+    }
+    
+}
